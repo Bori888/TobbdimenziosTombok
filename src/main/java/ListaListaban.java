@@ -5,7 +5,7 @@ public class ListaListaban {
     private ArrayList<ArrayList<Integer>> multi;
 
     public static void main(String[] args) {
-        new  ListaListaban();
+        new ListaListaban();
     }
 
     public ListaListaban() {
@@ -37,16 +37,11 @@ public class ListaListaban {
             for (int i = tol; i <= ig; i++) {
                 szamok.add(i);
             }
-        }else {
-            for (int i = tol; i >= ig; i++) {
+        } else {
+            for (int i = tol; i >= ig; i--) {
                 szamok.add(i);
             }
         }
-
         return szamok;
-    }
-
-    public Object getMulti() {
-        return null;
     }
 }
